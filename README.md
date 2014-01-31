@@ -1,14 +1,14 @@
 WcfSessionSample
 ================
-Here's a quick and dirty implementation of the ICalculatorService as per [MSDN}(http://msdn.microsoft.com/en-us/library/ms733040.aspx).
+Here's a quick and dirty implementation of the ICalculatorService as per [MSDN](http://msdn.microsoft.com/en-us/library/ms733040.aspx).
 
 This demonstrates the use of WCF Sessions
 
-Build both the service and client projects
+ - Build both the service and client projects
 
-Start the Service under the debugger
+ - Start the Service under the debugger
 
-Start the client without the debugger
+ - Start the client without the debugger
 
 Ideally you should Initiate the session with "Clear" and then use the +,-,* and / operations with the input textbox, before
 finally hitting the = for the result (which terminates the session).
