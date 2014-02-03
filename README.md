@@ -6,12 +6,11 @@ This demonstrates the use of WCF Sessions
 
  - Build both the service and client projects
 
- - Start the Service under the debugger
+ - Start the Service under the debugger (the Debug.WriteLines show a lot about how the server keeps state). Tracking the ThreadId would also be useful.
 
- - Start the client without the debugger
+ - Start one or more instances of the client without the debugger
 
-Ideally you should Initiate the session with "Clear" and then use the +,-,* and / operations with the input textbox, before
-finally hitting the = for the result (which terminates the session).
+Ideally you should Initiate the session with "Clear" and then use the +,-,* and / operations with the input textbox, before finally hitting the = for the result (which terminates the session).
 
 Fiddle around to see the errors if the methods aren't called the contracted sequences.
 
