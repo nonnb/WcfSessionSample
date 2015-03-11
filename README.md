@@ -16,6 +16,3 @@ Fiddle around to see the errors if the methods aren't called the contracted sequ
 
 You can also launch multiple clients - you can see how the service tracks (I've logged the session ID in the Debug.trace)
 The server also keeps track of the interim calculator register 'subtotal' along the way for each session.
-
-Also, if you launch too many clients, the server should run out of threads - one of the scalability related issues as to why
-WCF Sessions are for specific purposes requiring state.
